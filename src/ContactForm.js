@@ -38,17 +38,17 @@ export default function ContactForm() {
         >
             <Form>
                 <div>
-                    <lable htmlFor="firstName">First name</lable>
+                    <label htmlFor="firstName">First name</label>
                     <Field name="firstName" type="text"/>
                     <ErrorMessage component="span" name="firstName"/>
                 </div>
                 <div>
-                    <lable htmlFor="email">Email</lable>
+                    <label htmlFor="email">Email</label>
                     <Field name="email" type="email"/>
                     <ErrorMessage component="span" name="email"/>
                 </div>
                 <div>
-                    <lable htmlFor="phone">Phone</lable>
+                    <label htmlFor="phone">Phone</label>
                     <Field name="phone" type="text"/>
                     <ErrorMessage component="span" name="phone"/>
                 </div>
